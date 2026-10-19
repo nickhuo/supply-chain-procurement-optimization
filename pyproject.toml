@@ -1,0 +1,29 @@
+[project]
+name = "supplychain"
+version = "0.1.0"
+description = "Supplier selection, ordering and transshipment optimization (CUMCM 2021 Problem C, 1st Prize)"
+requires-python = ">=3.12"
+dependencies = [
+    "highspy>=1.15.1",
+    "linopy>=0.10.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.6",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+supplychain = "supplychain.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/supplychain"]

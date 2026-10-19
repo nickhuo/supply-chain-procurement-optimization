@@ -1,0 +1,133 @@
+{
+  "q1": {
+    "ahp_weights": {
+      "total_supply": 0.3987,
+      "valid_orders": 0.1066,
+      "fulfillment_rate": 0.1694,
+      "valid_order_rate": 0.1323,
+      "fluctuation": 0.1931
+    },
+    "ahp_consistency_ratio": 0.009,
+    "top50": [
+      "S229",
+      "S361",
+      "S275",
+      "S108",
+      "S140",
+      "S340",
+      "S329",
+      "S282",
+      "S268",
+      "S151",
+      "S306",
+      "S131",
+      "S356",
+      "S194",
+      "S330",
+      "S308",
+      "S139",
+      "S352",
+      "S247",
+      "S143",
+      "S348",
+      "S395",
+      "S365",
+      "S284",
+      "S031",
+      "S201",
+      "S307",
+      "S364",
+      "S040",
+      "S374",
+      "S346",
+      "S367",
+      "S294",
+      "S055",
+      "S080",
+      "S037",
+      "S218",
+      "S266",
+      "S244",
+      "S123",
+      "S007",
+      "S338",
+      "S114",
+      "S150",
+      "S314",
+      "S126",
+      "S291",
+      "S086",
+      "S003",
+      "S189"
+    ],
+    "top50_supply_share": 0.9721,
+    "suppliers_with_trend_p05": 12
+  },
+  "q2": {
+    "min_suppliers": 21,
+    "min_supplier_set": [
+      "S229",
+      "S361",
+      "S275",
+      "S108",
+      "S140",
+      "S340",
+      "S329",
+      "S268",
+      "S151",
+      "S306",
+      "S131",
+      "S356",
+      "S194",
+      "S330",
+      "S308",
+      "S139",
+      "S352",
+      "S143",
+      "S395",
+      "S338",
+      "S086"
+    ],
+    "purchase_cost_lp": 528612.75,
+    "suppliers_ordered_from": 50,
+    "transit_loss_m3": 3142.7
+  },
+  "q3": {
+    "deviations": {
+      "d1_minus": 147320.4,
+      "d1_plus": 0.0,
+      "d2_minus": 0.0,
+      "d2_plus": 15148.6
+    },
+    "transit_loss_m3": 2196.3
+  },
+  "q4": {
+    "capacity_increase_m3_per_week": 434.626,
+    "new_weekly_capacity": 28634.626,
+    "buffer_weeks_used_for_plan": 1.95,
+    "transit_loss_m3": 2288.0
+  },
+  "order_volume_by_material_m3": {
+    "q2": {
+      "A": 202411.0,
+      "B": 77960.0,
+      "C": 199959.0
+    },
+    "q3": {
+      "A": 307140.0,
+      "B": 132172.0,
+      "C": 15148.0
+    },
+    "q4": {
+      "A": 310269.0,
+      "B": 134466.0,
+      "C": 15995.0
+    }
+  },
+  "shortfall_weeks": {
+    "history": 175,
+    "q2": 3.03,
+    "q3": 4.94,
+    "q4": 5.08
+  }
+}
