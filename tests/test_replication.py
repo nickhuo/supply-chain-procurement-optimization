@@ -48,7 +48,8 @@ def test_capacity_increase(results):
 
 
 def test_q2_cost_is_published_code_optimum(results):
-    # The published code's LP optimum; the paper's text reports 570,600 (see README).
+    # Optimum of the LP in the paper's appendix; the paper's text reports 570,600,
+    # which no variant of the published code reproduces.
     assert results.q2_cost == pytest.approx(528_612.75, abs=0.01)
 
 
