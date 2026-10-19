@@ -3,6 +3,8 @@
 Our solution to **CUMCM 2021 Problem C** (China Undergraduate Mathematical Contest in
 Modeling, provincial **First Prize**), rebuilt in Python from the original MATLAB.
 
+**Team:** Jiajun Huo (霍嘉浚), Tingting Long (龙婷婷), Ting Fang (方婷) · **Advisor:** Songchen Li (李松臣)
+
 **What it solves.** A manufacturer makes 28,200 m³ of board a week from three raw materials
 (A, B and C), wants two weeks of production in stock, and buys from 402 unreliable suppliers.
 Eight transporters carry the material, each with weekly capacity and a transit loss rate. Using
